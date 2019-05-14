@@ -1,5 +1,5 @@
-load 'magic_handler.rb'
-load 'formatters/json_fmt.rb'
+require_relative 'magic_handler'
+require_relative 'formatters/json_fmt'
 
 
 MagicHandler.new.perform_numbers(1, 30)

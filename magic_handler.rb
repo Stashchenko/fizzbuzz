@@ -1,7 +1,7 @@
-load 'formatters/console_fmt.rb'
-load 'matchers/fizz_matcher.rb'
-load 'matchers/buzz_matcher.rb'
-load 'matchers/fizzbuzz_matcher.rb'
+require_relative 'formatters/console_fmt'
+require_relative 'matchers/fizz_matcher'
+require_relative 'matchers/buzz_matcher'
+require_relative 'matchers/fizzbuzz_matcher'
 
 class MagicHandler
   attr_writer :matchers
